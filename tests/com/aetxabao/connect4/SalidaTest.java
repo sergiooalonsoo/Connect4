@@ -1,5 +1,3 @@
-package com.aetxabao.connect4;
-
 import static com.aetxabao.connect4.Tablero.*;
 
 import java.io.ByteArrayOutputStream;
@@ -7,6 +5,8 @@ import java.io.PrintStream;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+import com.aetxabao.connect4.Salida;
+import com.aetxabao.connect4.Tablero;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
